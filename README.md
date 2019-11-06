@@ -1,5 +1,8 @@
 # MultipleTestingSystem
 Implementation of a concurrent testing framework
+using multiple parallel WINAPI threads and processes tests are performed concurrently
+a signal is returned if a test succeeded or failed/crashed/timed out.
+
 
 ## How to compile and run
 an input and output text files are given
@@ -12,8 +15,7 @@ output file: expected output of complementary input test
 3. insert the following command: gcc *.c -o FrameWork
 4. insert the following command: FrameWork --input="/path/to/input" --output="/path/to/output
 
-using multiple parallel WINAPI threads and processes tests are performed concurrently
-a signal is returned if a test succeeded or failed/crashed/timed out.
+
 
 ## IDE
 Written and compiled in Visual Studio 2017
