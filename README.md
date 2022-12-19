@@ -16,7 +16,6 @@ output file: expected output of complementary input test
 4. insert the following command: FrameWork --input="/path/to/input" --output="/path/to/output
 
 
-
 ## IDE
 Written and compiled in Visual Studio 2017
 
